@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 45" width="100%" height="45" fill="none">
+  <defs>
+    <style>
+      @keyframes goldPulseSec3 {
+        0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 2px rgba(212, 175, 55, 0.4)); }
+        50% { opacity: 1; filter: drop-shadow(0 0 7px rgba(212, 175, 55, 0.85)); }
+      }
+      @keyframes sweepSec3 {
+        0% { stroke-dashoffset: 400; }
+        100% { stroke-dashoffset: -400; }
+      }
+      .sec-title {
+        font-family: 'Georgia', 'Times New Roman', serif;
+        font-size: 16px;
+        font-weight: bold;
+        fill: #D4AF37;
+        letter-spacing: 3px;
+        text-anchor: middle;
+        animation: goldPulseSec3 4s ease-in-out infinite;
+      }
+      .sec-line {
+        stroke: #C5A059;
+        stroke-width: 0.8;
+        opacity: 0.4;
+      }
+      .sec-sweep {
+        stroke: url(#secGrad3);
+        stroke-width: 1.2;
+        stroke-dasharray: 40 180;
+        animation: sweepSec3 5s linear infinite;
+      }
+    </style>
+    <linearGradient id="secGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0" />
+      <stop offset="50%" stop-color="#FFF8DC" stop-opacity="1" />
+      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
+    </linearGradient>
+  </defs>
+
+  <!-- Left Accent Lines -->
+  <line x1="40" y1="23" x2="180" y2="23" class="sec-line" />
+  <line x1="40" y1="23" x2="180" y2="23" class="sec-sweep" />
+  <circle cx="190" cy="23" r="2" fill="#D4AF37" />
+
+  <!-- Section Title -->
+  <text x="400" y="28" class="sec-title">⚜ § III. OPUS MAGNUM · GHA-OIDC-AUDITOR ⚜</text>
+
+  <!-- Right Accent Lines -->
+  <circle cx="610" cy="23" r="2" fill="#D4AF37" />
+  <line x1="620" y1="23" x2="760" y2="23" class="sec-line" />
+  <line x1="620" y1="23" x2="760" y2="23" class="sec-sweep" />
+</svg>

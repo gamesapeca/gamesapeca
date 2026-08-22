@@ -24,9 +24,11 @@
   <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### § I. DE ARTE CYBERNETICA · O MANIFESTO
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/section_manifesto.svg" width="100%" alt="§ I. DE ARTE CYBERNETICA" />
+</p>
 
-<p>A engenharia de segurança contemporânea exige a mentalidade do <b>Polímata Renascentista</b>: o domínio simultâneo da geometria matemática dos compiladores, da anatomia de baixo nível dos binários e da estratégia tática de cerco e quebra de defesas.</p>
+<p align="center">A engenharia de segurança contemporânea exige a mentalidade do <b>Polímata Renascentista</b>: o domínio simultâneo da geometria matemática dos compiladores, da anatomia de baixo nível dos binários e da estratégia tática de cerco e quebra de defesas.</p>
 
 <table width="100%">
   <tr>
@@ -57,9 +59,11 @@
   <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### § II. ARS POLYGLOTTA · O QUADRIVIUM TÉCNICO
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/section_polyglotta.svg" width="100%" alt="§ II. ARS POLYGLOTTA" />
+</p>
 
-<p>O polímata moderno não se restringe a uma única ferramenta; domina todas as linguagens e arquiteturas necessárias para dissecar qualquer sistema:</p>
+<p align="center">O polímata moderno não se restringe a uma única ferramenta; domina todas as linguagens e arquiteturas necessárias para dissecar qualquer sistema:</p>
 
 <div align="center">
   <p><b>⚜ Linguagens de Sistemas, Compiladores & Dissecação:</b></p>
@@ -101,7 +105,9 @@
   <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### § III. OPUS MAGNUM · GHA-OIDC-AUDITOR
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/section_opus.svg" width="100%" alt="§ III. OPUS MAGNUM" />
+</p>
 
 <table width="100%">
   <tr>
@@ -128,7 +134,9 @@
   <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/divider.svg" width="100%" alt="Divider" />
 </p>
 
-### § IV. CHRONICA TEMPORIS · OS ANAIS DE CONTRIBUIÇÃO
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/section_chronica.svg" width="100%" alt="§ IV. CHRONICA TEMPORIS" />
+</p>
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=gamesapeca&bg_color=12100E&color=D1C7B7&line=C5A059&point=D4AF37&title_color=D4AF37&hide_border=true&area=true" width="100%" alt="Chronica Temporis · Activity Graph" />
