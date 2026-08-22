@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 240" width="100%" height="240" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&amp;family=EB+Garamond:ital,wght@0,400;0,600;1,400&amp;display=swap');
+      .card-border { stroke: #C5A059; stroke-width: 0.8; opacity: 0.4; fill: #12100E; fill-opacity: 0.7; }
+      .card-accent { stroke: #D4AF37; stroke-width: 1; opacity: 0.8; }
+      .card-title { font-family: 'Cinzel', 'Georgia', serif; font-size: 15px; font-weight: 700; fill: #D4AF37; letter-spacing: 2px; }
+      .card-sub { font-family: 'EB Garamond', 'Georgia', serif; font-size: 12px; font-style: italic; fill: #C5A059; letter-spacing: 1px; }
+      .bullet-title { font-family: 'Cinzel', 'Georgia', serif; font-size: 11px; font-weight: 600; fill: #D4AF37; }
+      .bullet-text { font-family: 'EB Garamond', 'Georgia', serif; font-size: 11px; fill: #D1C7B7; }
+      .ornament-bullet { fill: #C5A059; font-size: 10px; }
+    </style>
+  </defs>
+
+  <!-- LEFT CARD: DE RE MILITARI -->
+  <g transform="translate(10, 10)">
+    <rect x="0" y="0" width="380" height="220" rx="3" class="card-border" />
+    <path d="M 0 15 L 15 0 M 380 15 L 365 0 M 0 205 L 15 220 M 380 205 L 365 220" class="card-accent" />
+    
+    <text x="25" y="32" class="card-title">⚜ § I. DE RE MILITARI</text>
+    <text x="25" y="48" class="card-sub">Arte Ofensiva &amp; Bug Bounty (HackerOne / Bugcrowd)</text>
+    <line x1="25" y1="58" x2="355" y2="58" stroke="#D4AF37" stroke-width="0.7" opacity="0.4" />
+
+    <!-- Bullet 1 -->
+    <text x="25" y="82" class="ornament-bullet">✦</text>
+    <text x="40" y="82" class="bullet-title">Protocol &amp; Auth Bypasses:</text>
+    <text x="40" y="96" class="bullet-text">Quebra de controle de acesso em JWT, OAuth2, SAML e OIDC.</text>
+
+    <!-- Bullet 2 -->
+    <text x="25" y="118" class="ornament-bullet">✦</text>
+    <text x="40" y="118" class="bullet-title">Exploração Lógica em APIs:</text>
+    <text x="40" y="132" class="bullet-text">Identificação de IDOR/BOLA e falhas estruturais de autorização.</text>
+
+    <!-- Bullet 3 -->
+    <text x="25" y="154" class="ornament-bullet">✦</text>
+    <text x="40" y="154" class="bullet-title">Evasão &amp; Injeção Profunda:</text>
+    <text x="40" y="168" class="bullet-text">Bypass de WAF, SSRF, SSTI, Race Conditions e Polyglots.</text>
+
+    <!-- Bullet 4 -->
+    <text x="25" y="190" class="ornament-bullet">✦</text>
+    <text x="40" y="190" class="bullet-title">CI/CD Supply Chain Attacks:</text>
+    <text x="40" y="204" class="bullet-text">Runner poisoning, exfiltração de tokens e escalada em nuvem.</text>
+  </g>
+
+  <!-- RIGHT CARD: ANATOMIA CODICIS -->
+  <g transform="translate(410, 10)">
+    <rect x="0" y="0" width="380" height="220" rx="3" class="card-border" />
+    <path d="M 0 15 L 15 0 M 380 15 L 365 0 M 0 205 L 15 220 M 380 205 L 365 220" class="card-accent" />
+    
+    <text x="25" y="32" class="card-title">⚜ § II. ANATOMIA CODICIS</text>
+    <text x="25" y="48" class="card-sub">Análise Estática (SAST) &amp; Engenharia Reversa</text>
+    <line x1="25" y1="58" x2="355" y2="58" stroke="#D4AF37" stroke-width="0.7" opacity="0.4" />
+
+    <!-- Bullet 1 -->
+    <text x="25" y="82" class="ornament-bullet">✦</text>
+    <text x="40" y="82" class="bullet-title">Dissecação de Binários:</text>
+    <text x="40" y="96" class="bullet-text">Análise estática/dinâmica de executáveis ELF, PE, Mach-O, ARM64.</text>
+
+    <!-- Bullet 2 -->
+    <text x="25" y="118" class="ornament-bullet">✦</text>
+    <text x="40" y="118" class="bullet-title">Engenharia Reversa Mobile:</text>
+    <text x="40" y="132" class="bullet-text">Descompilação de APK/IPA, análise de bibliotecas nativas e hooks.</text>
+
+    <!-- Bullet 3 -->
+    <text x="25" y="154" class="ornament-bullet">✦</text>
+    <text x="40" y="154" class="bullet-title">Engenharia de AST &amp; Taint:</text>
+    <text x="40" y="168" class="bullet-text">Análise semântica e rastreamento determinístico de fluxo de dados.</text>
+
+    <!-- Bullet 4 -->
+    <text x="25" y="190" class="ornament-bullet">✦</text>
+    <text x="40" y="190" class="bullet-title">Auditoria CIEM em Nuvem:</text>
+    <text x="40" y="204" class="bullet-text">Mapeamento de menor privilégio em AWS IAM, GCP WIF, Azure e K8s.</text>
+  </g>
+</svg>

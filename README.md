@@ -20,99 +20,49 @@
   <sub>— Leonardo da Vinci · Princípio da Dissecação Estrutural e Auditoria de Segurança</sub>
 </blockquote>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/divider.svg" width="100%" alt="Divider" />
+</p>
 
 ### § I. DE ARTE CYBERNETICA · O MANIFESTO
 
 <p>A engenharia de segurança contemporânea exige a mentalidade do <b>Polímata Renascentista</b>: o domínio simultâneo da geometria matemática dos compiladores, da anatomia de baixo nível dos binários e da estratégia tática de cerco e quebra de defesas.</p>
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>⚜ § II. DE RE MILITARI</h3>
-      <p><b>Arte Ofensiva & Bug Bounty (HackerOne & Bugcrowd)</b></p>
-      <ul>
-        <li>✦ <b>Protocol & Auth Bypasses:</b> Quebra de controle de acesso em implementações complexas de JWT, OAuth2, SAML, Supabase e federações OIDC.</li>
-        <li>✦ <b>Exploração Lógica em APIs:</b> Identificação de IDOR/BOLA e falhas de autorização em larga escala.</li>
-        <li>✦ <b>Evasão & Injeção Profunda:</b> Bypass avançado de WAF, SSRF, Server-Side Template Injection (SSTI) e Race Conditions.</li>
-        <li>✦ <b>CI/CD Supply Chain Attacks:</b> Envenenamento de runners, exfiltração de tokens efêmeros e escalada de privilégios em nuvem.</li>
-      </ul>
-    </td>
-    <td width="50%" valign="top">
-      <h3>⚜ § III. ANATOMIA CODICIS</h3>
-      <p><b>Análise Estática (SAST) & Engenharia Reversa</b></p>
-      <ul>
-        <li>✦ <b>Dissecação de Binários:</b> Análise estática e dinâmica de executáveis compilados (ELF, PE, Mach-O, ARM64, x86_64).</li>
-        <li>✦ <b>Engenharia Reversa Mobile:</b> Descompilação de APK/IPA, análise de bibliotecas nativas e ganchos em runtime.</li>
-        <li>✦ <b>Engenharia de AST & Taint:</b> Construção de analisadores semânticos e rastreamento determinístico de fluxo de dados.</li>
-        <li>✦ <b>Auditoria CIEM em Nuvem:</b> Mapeamento de privilégio mínimo em AWS IAM, GCP WIF, Azure Entra ID e Kubernetes.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
-
----
-
-### § IV. ARS POLYGLOTTA · O QUADRIVIUM TÉCNICO
-
 <div align="center">
-  <p><b>Linguagens de Sistemas, Compiladores & Dissecação:</b></p>
-  <p>
-    <img src="https://img.shields.io/badge/C-12100E?style=flat-square&logo=c&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/C++-12100E?style=flat-square&logo=c%2B%2B&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Rust-12100E?style=flat-square&logo=rust&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Go-12100E?style=flat-square&logo=go&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Assembly_x86_64-12100E?style=flat-square&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Python-12100E?style=flat-square&logo=python&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Bash-12100E?style=flat-square&logo=gnubash&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/TypeScript-12100E?style=flat-square&logo=typescript&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Java-12100E?style=flat-square&logo=openjdk&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Kotlin-12100E?style=flat-square&logo=kotlin&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Solidity-12100E?style=flat-square&logo=solidity&logoColor=D4AF37&labelColor=1A1614" />
-  </p>
-
-  <p><b>Nuvem, Orquestração, Contêineres & Infraestrutura:</b></p>
-  <p>
-    <img src="https://img.shields.io/badge/AWS-12100E?style=flat-square&logo=amazonwebservices&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/GCP-12100E?style=flat-square&logo=googlecloud&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Azure-12100E?style=flat-square&logo=microsoftazure&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Kubernetes-12100E?style=flat-square&logo=kubernetes&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Docker-12100E?style=flat-square&logo=docker&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Terraform-12100E?style=flat-square&logo=terraform&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Linux-12100E?style=flat-square&logo=linux&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/GitHub_Actions-12100E?style=flat-square&logo=githubactions&logoColor=D4AF37&labelColor=1A1614" />
-    <img src="https://img.shields.io/badge/Git-12100E?style=flat-square&logo=git&logoColor=D4AF37&labelColor=1A1614" />
-  </p>
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/methodology_grid.svg" width="100%" alt="Methodology Grid" />
 </div>
 
----
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/divider.svg" width="100%" alt="Divider" />
+</p>
 
-### § V. OPUS MAGNUM · GHA-OIDC-AUDITOR
+### § II. ARS POLYGLOTTA · O QUADRIVIUM TÉCNICO
 
-<table width="100%">
-  <tr>
-    <td width="100%">
-      <h3>⚜ <a href="https://github.com/gamesapeca/gha-oidc-auditor">gha-oidc-auditor</a> — <i>Application Security Posture Management & CIEM</i></h3>
-      <p><b>Motor de Análise Estática, Síntese de Políticas Cloud de Menor Privilégio e Gerador de Exploit Chains para GitHub Actions OIDC.</b></p>
-      <p>
-        <a href="https://github.com/gamesapeca/gha-oidc-auditor/releases/tag/v0.1.0"><img src="https://img.shields.io/badge/RELEASE-v0.1.0-12100E?style=flat-square&labelColor=1A1614&color=D4AF37" alt="Release v0.1.0" /></a>
-        <a href="https://github.com/marketplace/actions/gha-oidc-security-auditor"><img src="https://img.shields.io/badge/MARKETPLACE-ACTION-12100E?style=flat-square&logo=githubactions&logoColor=D4AF37&labelColor=1A1614&color=D4AF37" alt="Marketplace Action" /></a>
-        <img src="https://img.shields.io/badge/CATALOGO-12_REGRAS-12100E?style=flat-square&labelColor=1A1614&color=D4AF37" alt="12 Regras" />
-        <img src="https://img.shields.io/badge/REMEDIATION-TERRAFORM_HCL-12100E?style=flat-square&logo=terraform&logoColor=D4AF37&labelColor=1A1614&color=D4AF37" alt="Terraform HCL" />
-      </p>
-      <ul>
-        <li>✦ <b>12 Regras Especializadas:</b> Cobertura integral de ataques de supply-chain (classe CVE-2025-30066), <code>pull_request_target</code> RCE e claims imutáveis de Julho de 2026.</li>
-        <li>✦ <b>8 Cadeias de Exploração (Exploit Chains):</b> Síntese automatizada de PoCs determinísticos para Bug Bounty com comandos de exfiltração em AWS STS, GCP WIF e Azure.</li>
-        <li>✦ <b>Remediation-as-Code:</b> Geração direta de módulos Terraform/OpenTofu HCL em privilégio mínimo.</li>
-        <li>✦ <b>Verificação Bidirecional CIEM:</b> Auditoria offline cruzando políticas reais na nuvem com a intenção estática do código.</li>
-      </ul>
-    </td>
-  </tr>
-</table>
+<p>O polímata moderno não se restringe a uma única ferramenta; domina todas as linguagens e arquiteturas necessárias para dissecar qualquer sistema:</p>
 
----
+<div align="center">
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/arsenal_polyglotta.svg" width="100%" alt="Arsenal Polyglotta" />
+</div>
 
-### § VI. CHRONICA TEMPORIS · OS ANAIS DE CONTRIBUIÇÃO
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/divider.svg" width="100%" alt="Divider" />
+</p>
+
+### § III. OPUS MAGNUM · GHA-OIDC-AUDITOR
+
+<p>A grande obra de engenharia de segurança, publicada oficialmente no <b>GitHub Marketplace</b>:</p>
+
+<div align="center">
+  <a href="https://github.com/gamesapeca/gha-oidc-auditor">
+    <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/opus_magnum.svg" width="100%" alt="Opus Magnum gha-oidc-auditor" />
+  </a>
+</div>
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/divider.svg" width="100%" alt="Divider" />
+</p>
+
+### § IV. CHRONICA TEMPORIS · OS ANAIS DE CONTRIBUIÇÃO
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=gamesapeca&bg_color=12100E&color=D1C7B7&line=C5A059&point=D4AF37&title_color=D4AF37&hide_border=true&area=true" width="100%" alt="Chronica Temporis · Activity Graph" />

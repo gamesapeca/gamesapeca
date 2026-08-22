@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 230" width="100%" height="230" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&amp;family=EB+Garamond:ital,wght@0,400;0,600;1,400&amp;display=swap');
+      .opus-card { stroke: #C5A059; stroke-width: 0.8; opacity: 0.4; fill: #12100E; fill-opacity: 0.7; }
+      .opus-accent { stroke: #D4AF37; stroke-width: 1; opacity: 0.8; }
+      .opus-title { font-family: 'Cinzel', 'Georgia', serif; font-size: 16px; font-weight: 700; fill: #D4AF37; letter-spacing: 2px; }
+      .opus-sub { font-family: 'EB Garamond', 'Georgia', serif; font-size: 12.5px; font-style: italic; fill: #C5A059; letter-spacing: 1px; }
+      .badge-bg { fill: #1A1614; stroke: #D4AF37; stroke-width: 0.6; rx: 2; }
+      .badge-text { font-family: 'Cinzel', 'Georgia', serif; font-size: 9.5px; font-weight: 700; fill: #D4AF37; text-anchor: middle; }
+      .feature-box { fill: #161311; stroke: #C5A059; stroke-width: 0.5; opacity: 0.6; rx: 2; }
+      .feature-head { font-family: 'Cinzel', 'Georgia', serif; font-size: 10.5px; font-weight: 600; fill: #D4AF37; }
+      .feature-body { font-family: 'EB Garamond', 'Georgia', serif; font-size: 10.5px; fill: #D1C7B7; }
+    </style>
+  </defs>
+
+  <!-- Outer Card Frame -->
+  <rect x="10" y="10" width="780" height="210" rx="3" class="opus-card" />
+  <path d="M 10 25 L 25 10 M 790 25 L 775 10 M 10 205 L 25 220 M 790 205 L 775 220" class="opus-accent" />
+
+  <!-- Title & Subtitle -->
+  <text x="30" y="36" class="opus-title">⚜ GHA-OIDC-AUDITOR</text>
+  <text x="210" y="35" class="opus-sub">— Application Security Posture Management &amp; CIEM</text>
+
+  <!-- Badges Row -->
+  <g transform="translate(30, 48)">
+    <!-- Release v0.1.0 -->
+    <rect x="0" y="0" width="105" height="18" class="badge-bg" />
+    <text x="52" y="13" class="badge-text">RELEASE v0.1.0</text>
+
+    <!-- Marketplace Action -->
+    <rect x="115" y="0" width="145" height="18" class="badge-bg" />
+    <text x="187" y="13" class="badge-text">MARKETPLACE ACTION</text>
+
+    <!-- 12 Rules -->
+    <rect x="270" y="0" width="125" height="18" class="badge-bg" />
+    <text x="332" y="13" class="badge-text">CATÁLOGO 12 REGRAS</text>
+
+    <!-- Terraform HCL -->
+    <rect x="405" y="0" width="145" height="18" class="badge-bg" />
+    <text x="477" y="13" class="badge-text">REMEDIATION HCL</text>
+  </g>
+
+  <!-- 4 Feature Grids -->
+  <g transform="translate(30, 78)">
+    <!-- Box 1 -->
+    <rect x="0" y="0" width="175" height="126" class="feature-box" />
+    <text x="12" y="22" class="feature-head">✦ 12 REGRAS OIDC</text>
+    <text x="12" y="42" class="feature-body">Inspeção profunda de AST</text>
+    <text x="12" y="58" class="feature-body">cobrindo supply chain,</text>
+    <text x="12" y="74" class="feature-body">pull_request_target e</text>
+    <text x="12" y="90" class="feature-body">claims imutáveis de</text>
+    <text x="12" y="106" class="feature-body">Julho de 2026.</text>
+
+    <!-- Box 2 -->
+    <rect x="187" y="0" width="175" height="126" class="feature-box" />
+    <text x="199" y="22" class="feature-head">✦ 8 EXPLOIT CHAINS</text>
+    <text x="199" y="42" class="feature-body">Síntese de cadeias</text>
+    <text x="199" y="58" class="feature-body">ofensivas determinísticas</text>
+    <text x="199" y="74" class="feature-body">para Bug Bounty com</text>
+    <text x="199" y="90" class="feature-body">exfiltração de tokens</text>
+    <text x="199" y="106" class="feature-body">em AWS, GCP e Azure.</text>
+
+    <!-- Box 3 -->
+    <rect x="374" y="0" width="175" height="126" class="feature-box" />
+    <text x="386" y="22" class="feature-head">✦ TERRAFORM HCL</text>
+    <text x="386" y="42" class="feature-body">Remediation-as-Code</text>
+    <text x="386" y="58" class="feature-body">gerando módulos .tf</text>
+    <text x="386" y="74" class="feature-body">prontos em privilégio</text>
+    <text x="386" y="90" class="feature-body">mínimo com OpenTofu /</text>
+    <text x="386" y="106" class="feature-body">Terraform para nuvem.</text>
+
+    <!-- Box 4 -->
+    <rect x="561" y="0" width="175" height="126" class="feature-box" />
+    <text x="573" y="22" class="feature-head">✦ CIEM VERIFICATION</text>
+    <text x="573" y="42" class="feature-body">Auditoria offline de</text>
+    <text x="573" y="58" class="feature-body">políticas reais de IAM</text>
+    <text x="573" y="74" class="feature-body">cruzando o código com</text>
+    <text x="573" y="90" class="feature-body">a nuvem e eliminando</text>
+    <text x="573" y="106" class="feature-body">Scope Drift &amp; wildcards.</text>
+  </g>
+</svg>
