@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:12100E,50:2A1E14,100:12100E&height=190&section=header&text=G%20A%20M%20E%20S%20A%20P%20E%20C%20A&fontSize=38&fontColor=D4AF37&fontAlignY=45&desc=CODEX%20CYBERNETICUS%20%C2%B7%20HOMO%20UNIVERSALIS&descFontSize=14&descColor=D1C7B7&descAlignY=70" width="100%" alt="Codex Cyberneticus Frontispiece" />
+  <img src="https://raw.githubusercontent.com/gamesapeca/gamesapeca/main/assets/header.svg" width="100%" alt="Codex Cyberneticus Frontispiece" />
 </div>
 
 <div align="center">
