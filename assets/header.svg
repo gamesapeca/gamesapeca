@@ -1,37 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 170" width="100%" height="170" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 160" width="100%" height="160" fill="none">
   <defs>
     <style>
-      @keyframes slowRotate {
-        from { transform: rotate(0deg); }
-        to { transform: rotate(360deg); }
-      }
-      @keyframes reverseRotate {
-        from { transform: rotate(360deg); }
-        to { transform: rotate(0deg); }
-      }
-      @keyframes goldPulse {
-        0%, 100% { opacity: 0.85; filter: drop-shadow(0 0 2px rgba(212, 175, 55, 0.4)); }
-        50% { opacity: 1; filter: drop-shadow(0 0 10px rgba(212, 175, 55, 0.85)); }
-      }
-      @keyframes shimmerLine {
-        0% { stroke-dashoffset: 600; }
-        100% { stroke-dashoffset: -600; }
-      }
-
       .gold-title {
         font-family: 'Georgia', 'Times New Roman', serif;
-        font-size: 33px;
+        font-size: 32px;
         font-weight: bold;
         fill: #D4AF37;
-        letter-spacing: 11px;
+        letter-spacing: 10px;
         text-anchor: middle;
-        animation: goldPulse 4s ease-in-out infinite;
       }
       .gold-sub {
         font-family: 'Georgia', serif;
         font-size: 13px;
         fill: #C5A059;
-        letter-spacing: 4.5px;
+        letter-spacing: 4px;
         text-anchor: middle;
       }
       .parch-desc {
@@ -46,7 +28,6 @@
         fill: #D4AF37;
         font-size: 14px;
         text-anchor: middle;
-        animation: goldPulse 4s ease-in-out infinite;
       }
       .frame-line {
         stroke: #C5A059;
@@ -60,78 +41,44 @@
       }
       .astrolabe-bg {
         stroke: #D4AF37;
-        stroke-width: 0.7;
-        opacity: 0.08;
-        transform-origin: 400px 85px;
-        animation: slowRotate 80s linear infinite;
-      }
-      .astrolabe-inner {
-        stroke: #C5A059;
         stroke-width: 0.6;
         opacity: 0.06;
-        transform-origin: 400px 85px;
-        animation: reverseRotate 50s linear infinite;
-      }
-      .shimmer-path {
-        stroke: url(#goldGradient);
-        stroke-width: 1.5;
-        stroke-dasharray: 100 500;
-        animation: shimmerLine 6s linear infinite;
       }
     </style>
-
-    <!-- Linear Gradient for Shimmer Sweep -->
-    <linearGradient id="goldGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#D4AF37" stop-opacity="0" />
-      <stop offset="50%" stop-color="#FFF3C4" stop-opacity="1" />
-      <stop offset="100%" stop-color="#D4AF37" stop-opacity="0" />
-    </linearGradient>
   </defs>
 
-  <!-- BACKGROUND WATERMARK: Rotating Sacred Geometry & Astrolabe -->
+  <!-- Sacred Geometry Watermark (Static, Subtle) -->
   <g class="astrolabe-bg">
-    <circle cx="400" cy="85" r="75" />
-    <circle cx="400" cy="85" r="60" stroke-dasharray="4 6" />
-    <!-- 8 Ray Compass Lines -->
-    <line x1="400" y1="5" x2="400" y2="165" />
-    <line x1="320" y1="85" x2="480" y2="85" />
-    <line x1="345" y1="30" x2="455" y2="140" />
-    <line x1="345" y1="140" x2="455" y2="30" />
-    <!-- Sacred Geometry Squares -->
-    <rect x="348" y="33" width="104" height="104" rx="1" />
-  </g>
-
-  <g class="astrolabe-inner">
-    <circle cx="400" cy="85" r="45" stroke-dasharray="2 4" />
-    <polygon points="400,45 435,105 365,105" />
-    <polygon points="400,125 435,65 365,65" />
+    <circle cx="400" cy="80" r="70" />
+    <circle cx="400" cy="80" r="55" stroke-dasharray="3 5" />
+    <line x1="400" y1="10" x2="400" y2="150" />
+    <line x1="330" y1="80" x2="470" y2="80" />
+    <line x1="350" y1="30" x2="450" y2="130" />
+    <line x1="350" y1="130" x2="450" y2="30" />
   </g>
 
   <!-- Outer Hairline Frame -->
-  <rect x="20" y="10" width="760" height="150" rx="2" class="frame-line" />
-  <rect x="25" y="15" width="750" height="140" rx="2" class="frame-line" opacity="0.25" />
-
-  <!-- Shimmer Border Overlay -->
-  <rect x="20" y="10" width="760" height="150" rx="2" fill="none" class="shimmer-path" />
+  <rect x="20" y="10" width="760" height="140" rx="2" class="frame-line" />
+  <rect x="25" y="15" width="750" height="130" rx="2" class="frame-line" opacity="0.25" />
 
   <!-- Corner Accents -->
-  <path d="M 20 28 L 38 28 M 28 20 L 28 38" class="accent-line" />
-  <path d="M 780 28 L 762 28 M 772 20 L 772 38" class="accent-line" />
-  <path d="M 20 142 L 38 142 M 28 150 L 28 132" class="accent-line" />
-  <path d="M 780 142 L 762 142 M 772 150 L 772 132" class="accent-line" />
+  <path d="M 20 25 L 35 25 M 25 20 L 25 35" class="accent-line" />
+  <path d="M 780 25 L 765 25 M 775 20 L 775 35" class="accent-line" />
+  <path d="M 20 135 L 35 135 M 25 140 L 25 125" class="accent-line" />
+  <path d="M 780 135 L 765 135 M 775 140 L 775 125" class="accent-line" />
 
-  <!-- Top Flor-de-lis Motif with Glow -->
-  <text x="400" y="35" class="ornament">⚜  ·  ✦  ·  ⚜</text>
+  <!-- Top Flor-de-lis Motif -->
+  <text x="400" y="34" class="ornament">⚜  ·  ✦  ·  ⚜</text>
 
-  <!-- Main Title -->
-  <text x="406" y="78" class="gold-title">GAMESAPECA</text>
+  <!-- Main Title (Solid, No Blinking) -->
+  <text x="405" y="74" class="gold-title">GAMESAPECA</text>
 
   <!-- Horizontal Separator with Center Jewel -->
-  <line x1="220" y1="93" x2="360" y2="93" class="accent-line" />
-  <circle cx="400" cy="93" r="3" fill="#D4AF37" />
-  <line x1="440" y1="93" x2="580" y2="93" class="accent-line" />
+  <line x1="240" y1="88" x2="370" y2="88" class="accent-line" />
+  <circle cx="400" cy="88" r="2.5" fill="#D4AF37" />
+  <line x1="430" y1="88" x2="560" y2="88" class="accent-line" />
 
   <!-- Subtitle & Description -->
-  <text x="400" y="117" class="gold-sub">CODEX CYBERNETICUS · HOMO UNIVERSALIS</text>
-  <text x="400" y="140" class="parch-desc">Security Researcher · Bug Bounty Hunter · SAST &amp; Reverse Engineering</text>
+  <text x="400" y="112" class="gold-sub">CODEX CYBERNETICUS · HOMO UNIVERSALIS</text>
+  <text x="400" y="134" class="parch-desc">Security Researcher · Bug Bounty Hunter · SAST &amp; Reverse Engineering</text>
 </svg>

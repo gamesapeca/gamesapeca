@@ -9,10 +9,6 @@
     <a href="https://github.com/marketplace/actions/gha-oidc-security-auditor"><img src="https://img.shields.io/badge/GITHUB_MARKETPLACE-AUTHOR-12100E?style=for-the-badge&logo=githubactions&logoColor=D4AF37&labelColor=1A1614" alt="GitHub Marketplace" /></a>
     <img src="https://img.shields.io/badge/DISCIPLINA-SAST_%26_REVERSING-12100E?style=for-the-badge&logoColor=D4AF37&labelColor=1A1614" alt="SAST & Reversing" />
   </p>
-
-  <p>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Cinzel&pause=1000&color=D4AF37&center=true&vCenter=true&width=650&lines=Homo+Universalis+%C2%B7+Investigator+Securitatis;De+Re+Militari+%C2%B7+Offensive+Research+%26+Bug+Bounty;Anatomia+Codicis+%C2%B7+Static+Analysis+(SAST)+%26+Reversing;Cloud+IAM%2C+OIDC+Entitlements+%26+CI%2FCD+Security;Author+of+gha-oidc-auditor+(Marketplace+Action)" alt="Renaissance Typing Banner" />
-  </p>
 </div>
 
 <blockquote align="center">
